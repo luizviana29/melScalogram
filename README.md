@@ -1,15 +1,15 @@
 # MelScalogram
 
-## Descrição
-Este projeto implementa a classe `MelScalogram`, uma ferramenta para análise de sinais de áudio que combina as técnicas de transformada wavelet contínua com a escala Mel para visualizações e processamento de dados. É particularmente útil para aplicações em processamento de sinais e aprendizado de máquina, oferecendo métodos para visualizar e pré-processar dados para redes neurais convolucionais.
+## Description
+This project implements the `MelScalogram` class, a tool for audio signal analysis that combines continuous wavelet transform techniques with the Mel scale for data visualization and processing. It is particularly useful for applications in signal processing and machine learning, providing methods to visualize and pre-process data for convolutional neural networks.
 
-## Características
-- Geração de escalogramas utilizando wavelets reais e complexas.
-- Conversão de frequências para a escala Mel.
-- Diferentes métodos de subamostragem (média, máximo, mínimo, uniforme).
+## Features
+- Generation of scalograms using real and complex wavelets.
+- Conversion of frequencies to the Mel scale.
+- Various subsampling methods (mean, maximum, minimum, uniform).
 
-## Pré-requisitos
-Para executar o `MelScalogram`, você precisará de Python 3.10.12 e algumas bibliotecas específicas. Instale-as usando o seguinte comando:
+## Prerequisites
+To run `MelScalogram`, you will need Python 3.10.12 and some specific libraries. Install them using the following command:
 
 ```bash
 pip install -r requirements.txt
